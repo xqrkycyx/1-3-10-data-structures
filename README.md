@@ -1,4 +1,4 @@
-# Data structures: Linked lists
+# Data structures Final Assessment: Linked lists
 
 To succeed at this challenge, you'll need to demonstrate that you can implement the following:
 
