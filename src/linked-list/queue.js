@@ -9,13 +9,21 @@ class Queue {
     this.linkedList = new LinkedList();
   }
 
-  enqueue(value) {}
+  enqueue(value) {
+    return this.linkedList.insert(value);
+  }
 
-  dequeue() {}
+  dequeue() {
+    return this.linkedList.remove((node, index) => index === 0);
+  }
 
-  peek() {}
+  peek() {
+    return this.linkedList.head.value;
+  }
 
-  isEmpty() {}
+  isEmpty() {
+    return this.linkedList.head === null;
+  }
 }
 
 module.exports = Queue;
